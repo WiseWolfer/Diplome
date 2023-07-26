@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogUpdateUser</class>
+ <widget class="QDialog" name="DialogUpdateUser">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>267</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DialogUpdateUser</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lUserLogin">
+     <property name="text">
+      <string>Логин пользователя</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineUserLogin"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lUserPassword">
+     <property name="text">
+      <string>Пароль пользователя</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineUserPassword"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lPosition">
+     <property name="text">
+      <string>Роль пользователя</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="linePosition"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pushUpdateUser">
+     <property name="text">
+      <string>Изменить пользователя</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

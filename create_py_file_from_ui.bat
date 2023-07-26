@@ -1,0 +1,2 @@
+pyuic5.exe -x C:\Users\Dmitriy\PycharmProjects\Diplome\DialogUpdateInReport_on_compl_works.ui -o C:\Users\Dmitriy\PycharmProjects\Diplome\DialogUpdateInReport_on_compl_works.py
+pyuic5.exe -x C:\Users\Dmitriy\PycharmProjects\Diplome\DialogAddToReport_on_compl_works.ui -o C:\Users\Dmitriy\PycharmProjects\Diplome\DialogAddToReport_on_compl_works.py

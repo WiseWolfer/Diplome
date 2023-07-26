@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Главное окно</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>809</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Задачи</string>
+    </property>
+    <addaction name="Task1"/>
+    <addaction name="Task2"/>
+    <addaction name="Task3"/>
+    <addaction name="Task4"/>
+    <addaction name="Task5"/>
+   </widget>
+   <widget class="QMenu" name="About">
+    <property name="title">
+     <string>О программе</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Настройки</string>
+    </property>
+    <widget class="QMenu" name="menu_5">
+     <property name="title">
+      <string>Настройка языка прложения</string>
+     </property>
+     <addaction name="action_4"/>
+     <addaction name="action_5"/>
+    </widget>
+    <addaction name="SettingsWindowColor"/>
+    <addaction name="SettingsSWindowSize"/>
+    <addaction name="menu_5"/>
+   </widget>
+   <widget class="QMenu" name="Exit">
+    <property name="title">
+     <string>Выход</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="About"/>
+   <addaction name="menu_3"/>
+   <addaction name="Exit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="SettingsWindowColor">
+   <property name="text">
+    <string>Настройка темы окна</string>
+   </property>
+  </action>
+  <action name="SettingsSWindowSize">
+   <property name="text">
+    <string>Настройка размера окна</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Руccкий язык</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Английский язык</string>
+   </property>
+  </action>
+  <action name="Task1">
+   <property name="text">
+    <string>Календарный график электромонтажных работ на основании договора субподряда</string>
+   </property>
+  </action>
+  <action name="Task2">
+   <property name="text">
+    <string>График работ ГПМ на объектах</string>
+   </property>
+  </action>
+  <action name="Task3">
+   <property name="text">
+    <string>Недельно-суточный график выполнения общестроительных работ на объектах</string>
+   </property>
+  </action>
+  <action name="Task4">
+   <property name="text">
+    <string>Ведомость потребности в кадрах</string>
+   </property>
+  </action>
+  <action name="Task5">
+   <property name="text">
+    <string>Недельно-суточный график выполнения работ на объектах</string>
+   </property>
+  </action>
+  <action name="actionEx">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="text">
+    <string>Выйти из программы</string>
+   </property>
+  </action>
+  <action name="action_excel">
+   <property name="text">
+    <string>Сохранить документ в excel</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>action_exit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>404</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
